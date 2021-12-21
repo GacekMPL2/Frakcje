@@ -1,0 +1,16 @@
+name: Frakcje
+version: 1.0
+main: me.gacekmpl2.Main
+api-version: 1.17
+authors: [ GacekMPL2 ]
+
+commands:
+  boyfarmer:
+    aliases:
+      - bf
+  yt:
+    usage: /yt
+    aliases:
+      - youtube
+      - live
+      - link
