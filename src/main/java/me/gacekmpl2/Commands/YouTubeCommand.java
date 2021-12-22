@@ -1,6 +1,5 @@
 package me.gacekmpl2.Commands;
 
-
 import me.gacekmpl2.Utils.ChatUtils;
 import me.gacekmpl2.Utils.Messages;
 import org.bukkit.Bukkit;
@@ -11,7 +10,7 @@ import org.bukkit.entity.Player;
 
 public class YouTubeCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (!sender.hasPermission("frakcje.command.yt")) {
+        if (!sender.hasPermission("EasyHC.command.yt")) {
             sender.sendMessage(ChatUtils.color("&cBrak uprawnien"));
             return true;
         }

@@ -34,7 +34,7 @@ public final class Main extends JavaPlugin {
         getLogger().info("Plugin sie wlaczyl");
         getCommand("boyfarmer").setTabCompleter((TabCompleter) new TabCompliter());
         getCommand("boyfarmer").setExecutor((CommandExecutor) new GetBlockCommand());
-        getCommand("yt").setExecutor((CommandExecutor) new YouTubeCommand());
+        getCommand("yt").setExecutor((CommandExecutor)new YouTubeCommand());
         Bukkit.getPluginManager().registerEvents((Listener) new BlockPlace(), (Plugin) this);
         BoyFarmer bf = new BoyFarmer(this);
         BoyFarmer = bf.getFarmer();

@@ -12,7 +12,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class GetBlockCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (sender.hasPermission("frakcje.command.farmer")) {
+        if (sender.hasPermission("EasyHC.command.farmer")) {
             if (args.length != 3 && args.length != 4) {
                 sender.sendMessage(ChatUtils.color("&4Poprawne uzycie komendy: &c&l/bf give boyfarmer/sandfarmer/fosafarmer <ilosc> <nick>"));
                 return true;
