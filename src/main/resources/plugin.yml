@@ -2,6 +2,8 @@ name: Frakcje
 version: 1.0
 main: me.gacekmpl2.Main
 api-version: 1.17
+depend:
+  - PlaceholderAPI
 authors: [ GacekMPL2 ]
 
 commands:
@@ -14,3 +16,5 @@ commands:
       - youtube
       - live
       - link
+  easyhcreload:
+    usage: /easyhcreload
