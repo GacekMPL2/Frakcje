@@ -16,5 +16,5 @@ commands:
       - youtube
       - live
       - link
-  easyhcreload:
-    usage: /easyhcreload
+  easyhc:
+    usage: /easyhc

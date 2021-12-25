@@ -12,15 +12,14 @@ public class ReloadCommand implements CommandExecutor {
             sender.sendMessage(ChatUtils.color("&cBrak uprawnie"));
             return true;
         }
-        if (args.length == 0) {
-            if (sender.hasPermission("EasyHC.command.reload")) {
+        if (args.length == 1) {
+            if (args[0].equalsIgnoreCase("reload")) {
                 ConfigLoad.loadAll();
                 sender.sendMessage(ChatUtils.color("&aPrzeladowano"));
-            } else {
-                sender.sendMessage(ChatUtils.color("&cBrak uprawnie"));
                 return true;
             }
         }
         return true;
     }
 }
+

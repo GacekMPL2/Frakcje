@@ -42,7 +42,7 @@ public final class Main extends JavaPlugin {
             return;
         }
         getLogger().info("Plugin sie wlaczyl");
-        getCommand("easyhcreload").setExecutor((CommandExecutor) new ReloadCommand());
+        getCommand("easyhc").setExecutor((CommandExecutor) new ReloadCommand());
         getCommand("boyfarmer").setTabCompleter((TabCompleter) new TabCompliter());
         getCommand("boyfarmer").setExecutor((CommandExecutor) new GetBlockCommand());
         getCommand("yt").setExecutor((CommandExecutor) new YouTubeCommand());
