@@ -59,7 +59,7 @@ public class GetBlockCommand implements CommandExecutor {
                         }
                     } else {
                         if (!(sender instanceof Player)) {
-                            sender.sendMessage("Nie no nie swiruj z konsoli");
+                            sender.sendMessage("Kolo nie z konsoli debilu");
                             return true;
                         }
                         Player player = (Player)sender;
@@ -79,7 +79,7 @@ public class GetBlockCommand implements CommandExecutor {
                         }
                     } else {
                         if (!(sender instanceof Player)) {
-                            sender.sendMessage("Nie no nie swiruj z konsoli");
+                            sender.sendMessage("Kolo nie z konsoli debilu");
                             return true;
                         }
                         Player player = (Player)sender;

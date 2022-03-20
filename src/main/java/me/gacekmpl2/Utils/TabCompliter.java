@@ -25,6 +25,13 @@ public class TabCompliter implements TabCompleter {
             }
             return l;
         }
+        if (command.getName().equalsIgnoreCase("easyhc")) {
+            List<String> a = new ArrayList<>();
+            if (args.length == 1) {
+                a.add("reload");
+            }
+            return a;
+        }
         return null;
     }
 }

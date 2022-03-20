@@ -17,4 +17,4 @@ commands:
       - live
       - link
   easyhc:
-    usage: /easyhc
+    usage: /easyhc`
